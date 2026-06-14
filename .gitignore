@@ -1,0 +1,50 @@
+# Data files
+*.pkl
+*.csv
+*.h5
+*.hdf5
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output files (keep structure, ignore content)
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+!outputs/.gitkeep
+
+# Logs
+*.log
