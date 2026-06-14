@@ -40,10 +40,10 @@ env/
 Thumbs.db
 desktop.ini
 
-# Output files (keep structure, ignore content)
-outputs/*.png
-outputs/*.jpg
-outputs/*.pdf
+# Output files - allow plot images
+# outputs/*.png
+# outputs/*.jpg
+# outputs/*.pdf
 !outputs/.gitkeep
 
 # Logs

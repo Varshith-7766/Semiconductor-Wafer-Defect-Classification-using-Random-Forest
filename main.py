@@ -1,14 +1,3 @@
-"""
-Main Pipeline Script for Semiconductor Wafer Defect Classification.
-
-This script runs the complete end-to-end pipeline:
-1. Load and clean the dataset
-2. Extract features from wafer maps
-3. Prepare data for training
-4. Train and compare models
-5. Evaluate and visualize results
-6. Save all artifacts
-"""
 
 import os
 import sys
